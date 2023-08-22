@@ -14,8 +14,8 @@
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
+/QtProject/.qmake.cache
+/QtProject/.qmake.stash
 *.pro.user
 *.pro.user.*
 *.qbs.user
@@ -52,3 +52,12 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# PowerDesigner files
+*.cdb
+*.ldb
+*.pdb
+*.pjb
+
+# Notepad++ files
+*.bak
